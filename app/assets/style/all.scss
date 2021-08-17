@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+
+@import "../../../node_modules/bootstrap/scss/functions";
+
+@import "./helpers/variables";
+@import "./helpers/base";
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+
+// layout 共同框架
+@import "layout/header";
+@import "layout/subscribe";
+@import "layout/footer";
+
+// swiper 套件
+@import "vendor/swiper";
+
+// component 元件
+@import "component/navbar";
+@import "component/progress";
+
+
+// page 頁面
+@import "page/index";
+@import "page/product";
+@import "page/popular";
+@import "page/check";

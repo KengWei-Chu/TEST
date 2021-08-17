@@ -1,0 +1,149 @@
+.banner{
+    background-image: url("../../assets/images/10.jpg");
+    height: 480px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.popular-img img{
+    
+    @include media-breakpoint-up(xs) {  
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: cover;   }
+    @include media-breakpoint-up(sm) {  
+        width: 100%;
+        height: auto;
+        display: block;
+
+        object-fit: cover;   }
+    @include media-breakpoint-up(md) { 
+        width: 250px;
+        height: 250px;
+        display: block;
+
+        object-fit: cover;   }
+    @include media-breakpoint-up(lg) {   
+        width: 350px;
+        height: 350px;
+        display: block;
+
+        object-fit: cover;   }
+    @include media-breakpoint-up(xl) { 
+        width: 350px;
+        height: 350px;
+        display: block;
+
+        object-fit: cover;   }
+    @include media-breakpoint-up(xxl) {
+        width: 350px;
+        height: 350px;
+        display: block;
+
+        object-fit: cover;   }
+}
+
+    
+
+
+
+
+
+.open-talk{
+    opacity: 0.75;
+    
+}
+
+.open-talk img{
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+    
+}
+
+.online{
+    @include media-breakpoint-up(xs) {  
+        height: 464px;      
+    }
+
+    @include media-breakpoint-up(md) {   
+        height: 472px;    
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;         
+    }
+    @include media-breakpoint-up(lg) {   
+        height: 482px;        
+    }
+    
+    
+}
+
+.online-img{
+    @include media-breakpoint-up(xs) {  
+        height: 464px; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;     
+    }
+    @include media-breakpoint-up(md) {   
+        height: 472px;    
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;         
+    }
+    @include media-breakpoint-up(lg) {   
+        height: 482px;    
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;         
+    }
+}
+
+.open-talk-title{
+    @include media-breakpoint-up(md) {  
+        font-size: 22px;
+    }
+    @include media-breakpoint-up(lg) {  
+        font-size: 28px;
+    }
+}
+
+.open-talk-subtitle{
+    @include media-breakpoint-up(md) {  
+        font-size: 16px;
+    }
+    @include media-breakpoint-up(lg) {  
+        font-size: 20px;
+    }
+}
+
+
+.open-talk-text{
+    @include media-breakpoint-up(md) {  
+        font-size: 16px;
+    }
+    @include media-breakpoint-up(lg) {  
+        font-size: 20px;
+    }
+}
+
+.offcanvas{
+    width: 100%;
+    @include media-breakpoint-up(xs) {  
+        width: 100%;
+
+    }
+    @include media-breakpoint-up(md) {   
+        width: 50%;
+    }
+    @include media-breakpoint-up(lg) {   
+        width: 540px;
+    }
+}
+
+.object-fit{
+    object-fit: cover;
+}
